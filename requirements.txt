@@ -1,0 +1,9 @@
+# 微调主线
+torch>=2.0                 # 实测 2.11.0+cu128
+transformers>=4.40         # 实测 4.46.3，需要 GPT2LMHeadModel + BertTokenizer
+zhconv>=1.4                # 《全唐诗》繁体 -> 简体
+requests>=2.28             # 下载预训练模型
+
+# 绘图与数据处理
+numpy>=1.24
+matplotlib>=3.7
